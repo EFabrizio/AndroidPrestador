@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prestador</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="title_activity_agregar">Agregador</string>
+</resources>
