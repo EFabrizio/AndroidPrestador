@@ -12,18 +12,22 @@ import java.util.ArrayList;
 /**
  * Created by root on 5/05/16.
  */
-public class AdapterStyle extends ArrayAdapter<Cosa> {
+public class AdapterStyle extends ArrayAdapter<String> {
 
     private ArrayList<Cosa> items;
+    private Context context;
+    private String[] values;
 
-    public AdapterStyle(Context context, int textViewResourceId, ArrayList<Cosa> items) {
-        super(context, textViewResourceId, items);
-        this.items = items;
+    public AdapterStyle(Context context, int resource,String[] values) {
+        super(context, resource, values);
+        this.context = context;
+        this.values = values;
     }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
+        
         return null;
     }
 }

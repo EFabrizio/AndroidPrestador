@@ -5,5 +5,8 @@ package txsec.com.prestador;
  */
 public class Cosa {
 
+    private String name;
+
+
 
 }
